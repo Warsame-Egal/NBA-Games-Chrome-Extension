@@ -1,0 +1,156 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #E0E0E0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-animation: fadein .75s;
+  text-align: center;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+h2   {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  font-size: 150%;
+  text-align: center;
+  color: #212121;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+h3   {
+  font-size: 150%;
+  text-align: center;
+  color: #424242;
+  font-weight: 100;
+}
+
+#time {
+  display: none;
+}
+
+.spinner {
+  display: none;
+}
+
+.card {
+  box-shadow: 0 3px 10px 0 #9E9E9E;
+  transition: 0.3s;
+  background-color: #EEEEEE;
+  color: #424242;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  min-width: 28em;
+  -webkit-animation: fadein .75s;
+}
+
+.text {
+  text-align: center;
+  transition: 0.3s;
+  color: #424242;
+  padding: 5px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  margin-right: 7px;
+  min-width: 28em;
+  -webkit-animation: fadein .75s;
+}
+
+/*
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #E0E0E0;
+}*/
+
+.card-container {
+  display: flex;
+  height: 55px;
+  padding: 5px 0px;
+  font-size: 125%;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+img {
+    vertical-align: middle;
+    margin-right:15px;
+    margin-bottom: 5px;
+}
+
+.entry {
+  padding: 5px;
+}
+
+.c1 {
+  display:inline-block;
+  width: 60%;
+}
+
+.c2 {
+  display: inline-block;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  width: 35%;
+}
+
+.s1 {
+  display: inline-block;
+  text-align: left;
+  width: 75%;
+}
+
+.s2 {
+  display: inline-block;
+  text-align: right;
+  width: 15%;
+}
+
+.divider {
+   border-left:1px solid #BDBDBD;
+   width:2.5%;
+}
+
+.noselect {
+    -webkit-user-select: none;
+            user-select: none;
+}
+
+#date {
+  position: relative;
+  display: inline-block;
+  font-size: 150%;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 15px;
+  font-weight: 400;
+  width:175px;
+  max-width:175px;
+  right: 7px;
+  margin-top: 15px;
+}
+
+.fa {
+  color: #9E9E9E;
+  vertical-align: middle;
+  margin-right: 19px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  transition: color .5s;
+  cursor: pointer;
+}
+
+.fa:hover {
+  color: #212121;
+}
+
+/*
